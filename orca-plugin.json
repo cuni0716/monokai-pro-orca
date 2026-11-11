@@ -1,0 +1,30 @@
+{
+  "manifestVersion": 2,
+  "id": "monokai-pro-ce-theme",
+  "name": "Monokai Pro (CE)",
+  "version": "2.0.0",
+  "execution": "data",
+  "description": "Monokai Pro (CE), the community edition of Monokai Pro for Orca: application, syntax and terminal colors (default filter).",
+  "license": "MIT",
+  "repository": "https://github.com/cuni0716/monokai-pro-orca",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "monokai-pro-ce",
+        "title": "Monokai Pro (CE)",
+        "path": "themes/monokai-pro-ce.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "monokai-pro-ce",
+        "title": "Monokai Pro (CE)",
+        "path": "terminal/monokai-pro-ce.json"
+      }
+    ]
+  },
+  "capabilities": []
+}
